@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.content {
+   margin-top: 200px !important;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center; 
+}
+
+#logo {
+    clear: both;
+    width: 100%;
+    text-align: center;
+}
+
+#search {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#search-box {
+    width: 500px;
+    height: 25px;
+    border: 1px solid #cecece;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0px, 0px, 5px, 0px;
+}
+
+#search-box:focus {
+    decoration: none;
+}
+
+.footer {
+
+}
